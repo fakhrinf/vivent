@@ -16,6 +16,19 @@
         .card{
             margin-bottom: 10px;
         }
+
+        .scorevalue{
+            font-size: 82px;
+            color:orange;
+        }
+
+        td:first-child{
+            text-align: left;
+        }
+
+        td:last-child{
+            text-align: center;
+        }
     </style>
     <title>Vivent</title>
 </head>
@@ -25,9 +38,29 @@
     </nav>
     <br>
     <div class="container">
-        <table class="table table-condensed">
+        <h3>Score</h3>
+        <div class="card" style="padding:15px;text-align: center;">
+
+            <h1 class="scorevalue">3.34</h1>
+            <h5>Average</h5>
+
+        </div>
+        <table class="table table-bordered table-condensed">
             <tr>
-                <td>Tempat*</td>
+                <td>Ruang Training*</td>
+                <td>
+                    <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        <span>&nbsp;3.34</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Pemateri*</td>
                 <td>
                     <div>
                         <span class="fa fa-star checked"></span>
@@ -53,7 +86,7 @@
                 </td>
             </tr>
             <tr>
-                <td>Pembawa Materi*</td>
+                <td>Materi Pelatihan*</td>
                 <td>
                     <div>
                         <span class="fa fa-star checked"></span>
@@ -78,21 +111,8 @@
                     </div>
                 </td>
             </tr>
-            <tr>
-                <td>Materi*</td>
-                <td>
-                    <div>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star unchecked"></span>
-                        <span class="fa fa-star unchecked"></span>
-                        <span>&nbsp;3.34</span>
-                    </div>
-                </td>
-            </tr>
         </table>
-        <hr>
+        <h3>Comments</h3>
         <!-- <div style="max-height: 280px;overflow-y:scroll;"> -->
         <div>
             <div class="card">
